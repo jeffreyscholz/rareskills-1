@@ -117,7 +117,8 @@ contract StakingBoy is IERC721Receiver {
     function timeSinceLastRewardCollected(
         uint256 tokenId
     ) external view returns (uint256) {
-        return (block.timestamp).sub(stakedTokens[tokenId].rewardLastCollectedAt);
+        return
+            (block.timestamp).sub(stakedTokens[tokenId].rewardLastCollectedAt);
     }
 
     function withdrawRewards() external {
@@ -206,13 +207,15 @@ contract StakingBoy is IERC721Receiver {
         StakedTokenInfo memory tokenInfo
     ) private view returns (uint256, uint256) {
         uint256 daysPassed = (block.timestamp -
-            tokenInfo.rewardLastCollectedAt)/1 days;
+            tokenInfo.rewardLastCollectedAt) / 1 days;
         //example: if user withdraws after 36 hours, they will be rewarded for 24 hours
         //and remain unrewarded for the last 12 hours because
         //they have not completed the next 24 hour cycle
         //that unrewarded time must be accounted for
-        uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt)+daysPassed*(1 days);
+        uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+            daysPassed *
+            (1 days);
         uint256 reward = daysPassed * rewardRatePerDay;
-        return (reward , latestTimestamp);
+        return (reward, latestTimestamp);
     }
 }

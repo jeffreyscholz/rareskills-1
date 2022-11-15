@@ -64,8 +64,9 @@ contract TokenSaleWithBondingCurve is TokenWithGodMode, Power {
      * purchaseReturn = totalSupply*((1 + deposit/reserveBalance)^(reserveRatio/MAX_RESERVE_RATIO) - 1)
      */
 
-    function computePurchaseReturns(uint256 _deposit) public view returns (uint256) {
-
+    function computePurchaseReturns(
+        uint256 _deposit
+    ) public view returns (uint256) {
         uint256 result;
         uint8 precision;
 
@@ -89,7 +90,9 @@ contract TokenSaleWithBondingCurve is TokenWithGodMode, Power {
      * saleReturn = reserveBalance*(1 - (1 - _sellAmount/totalSupply) ^ (1/(reserveRatio/MAX_RESERVE_RATIO))
      */
 
-    function computeSaleReturns(uint256 _sellAmount) public view returns (uint256) {
+    function computeSaleReturns(
+        uint256 _sellAmount
+    ) public view returns (uint256) {
         if (_sellAmount == 0) {
             return 0;
         }
@@ -148,9 +151,7 @@ contract TokenSaleWithBondingCurve is TokenWithGodMode, Power {
         _sellBackFees = _sellBackFees.add(fees);
         _reserveBalance = _reserveBalance.sub(ethToSend);
 
-        (bool sent,) = (msg.sender).call{value: ethToSend}(
-            ""
-        );
+        (bool sent, ) = (msg.sender).call{value: ethToSend}("");
         require(sent, "Failed to send ether");
 
         return ethToSend;
@@ -165,10 +166,7 @@ contract TokenSaleWithBondingCurve is TokenWithGodMode, Power {
     */
 
     function withdrawSellBackFees() external onlyRole(DEFAULT_ADMIN_ROLE) {
-
-        (bool sent, ) = (msg.sender).call{
-            value: _sellBackFees
-        }("");
+        (bool sent, ) = (msg.sender).call{value: _sellBackFees}("");
 
         _sellBackFees = 0;
 

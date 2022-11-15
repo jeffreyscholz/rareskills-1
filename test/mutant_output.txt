@@ -1,0 +1,5670 @@
+Mutation testing report:
+Number of mutations:    515
+Killed:                 80 / 515
+
+Mutations:
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f <= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 124
+    Result: Equivalent
+    Original line:
+                 require(stakers[msg.sender].balance != 0, "No staked tokens found");
+
+    Mutated line:
+                 require(stakers[msg.sen == .balance != 0, "No staked tokens found");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 139
+    Result: Equivalent
+    Original line:
+                 require(totalRewards != 0, "No rewards accumulated yet");
+
+    Mutated line:
+                 require( == lRewards != 0, "No rewards accumulated yet");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f >= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 192
+    Result: Equivalent
+    Original line:
+                 if (rewards != 0) {
+
+    Mutated line:
+                 == (rewards != 0) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 135
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 155
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 187
+    Result: Equivalent
+    Original line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.tokens.length - 1];
+
+    Mutated line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.t + ns.length - 1];
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 209
+    Result: Equivalent
+    Original line:
+                     tokenInfo.rewardLastCollectedAt) / 1 days;
+
+    Mutated line:
+                     tokenInfo.rewardLast * ollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 208
+    Result: Equivalent
+    Original line:
+                 uint256 daysPassed = (block.timestamp -
+
+    Mutated line:
+                 uint256 daysPassed = (blo +             tokenInfo.rewardLastCollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLa - tCollectedAt) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollected / t) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 216
+    Result: Equivalent
+    Original line:
+                     (1 days);
+
+    Mutated line:
+                     (1  / s);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 42
+    Result: Killed
+    Original line:
+                 _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 44
+    Result: Lived
+    Original line:
+                 _setupRole(MINTER_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 52
+    Result: Killed
+    Original line:
+                 _mint(to, amount);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 57
+    Result: Killed
+    Original line:
+                 grantRole(MINTER_ROLE, to);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 65
+    Result: Killed
+    Original line:
+                 _mint(msg.sender, tokenId);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 41
+    Result: Equivalent
+    Original line:
+             constructor() ERC20("tokenboy", "TBY") {
+
+    Mutated line:
+             constructor()  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 56
+    Result: Lived
+    Original line:
+             function grantMinterRole(address to) external onlyRole(DEFAULT_ADMIN_ROLE) {
+
+    Mutated line:
+             function grantMinterRole(address to) external  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 62
+    Result: Equivalent
+    Original line:
+             constructor() ERC721("NFT Boy", "NBY") {}
+
+    Mutated line:
+             constructor()  {}
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f <= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 124
+    Result: Equivalent
+    Original line:
+                 require(stakers[msg.sender].balance != 0, "No staked tokens found");
+
+    Mutated line:
+                 require(stakers[msg.sen == .balance != 0, "No staked tokens found");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 139
+    Result: Equivalent
+    Original line:
+                 require(totalRewards != 0, "No rewards accumulated yet");
+
+    Mutated line:
+                 require( == lRewards != 0, "No rewards accumulated yet");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f >= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 192
+    Result: Equivalent
+    Original line:
+                 if (rewards != 0) {
+
+    Mutated line:
+                 == (rewards != 0) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 135
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 155
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 187
+    Result: Equivalent
+    Original line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.tokens.length - 1];
+
+    Mutated line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.t + ns.length - 1];
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 209
+    Result: Equivalent
+    Original line:
+                     tokenInfo.rewardLastCollectedAt) / 1 days;
+
+    Mutated line:
+                     tokenInfo.rewardLast * ollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 208
+    Result: Equivalent
+    Original line:
+                 uint256 daysPassed = (block.timestamp -
+
+    Mutated line:
+                 uint256 daysPassed = (blo +             tokenInfo.rewardLastCollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLa - tCollectedAt) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollected / t) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 216
+    Result: Equivalent
+    Original line:
+                     (1 days);
+
+    Mutated line:
+                     (1  / s);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 42
+    Result: Killed
+    Original line:
+                 _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 44
+    Result: Lived
+    Original line:
+                 _setupRole(MINTER_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 52
+    Result: Killed
+    Original line:
+                 _mint(to, amount);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 57
+    Result: Killed
+    Original line:
+                 grantRole(MINTER_ROLE, to);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 65
+    Result: Killed
+    Original line:
+                 _mint(msg.sender, tokenId);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 41
+    Result: Equivalent
+    Original line:
+             constructor() ERC20("tokenboy", "TBY") {
+
+    Mutated line:
+             constructor()  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 56
+    Result: Lived
+    Original line:
+             function grantMinterRole(address to) external onlyRole(DEFAULT_ADMIN_ROLE) {
+
+    Mutated line:
+             function grantMinterRole(address to) external  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 62
+    Result: Equivalent
+    Original line:
+             constructor() ERC721("NFT Boy", "NBY") {}
+
+    Mutated line:
+             constructor()  {}
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f <= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 124
+    Result: Equivalent
+    Original line:
+                 require(stakers[msg.sender].balance != 0, "No staked tokens found");
+
+    Mutated line:
+                 require(stakers[msg.sen == .balance != 0, "No staked tokens found");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 139
+    Result: Equivalent
+    Original line:
+                 require(totalRewards != 0, "No rewards accumulated yet");
+
+    Mutated line:
+                 require( == lRewards != 0, "No rewards accumulated yet");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f >= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 192
+    Result: Equivalent
+    Original line:
+                 if (rewards != 0) {
+
+    Mutated line:
+                 == (rewards != 0) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 135
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 155
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 187
+    Result: Equivalent
+    Original line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.tokens.length - 1];
+
+    Mutated line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.t + ns.length - 1];
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 209
+    Result: Equivalent
+    Original line:
+                     tokenInfo.rewardLastCollectedAt) / 1 days;
+
+    Mutated line:
+                     tokenInfo.rewardLast * ollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 208
+    Result: Equivalent
+    Original line:
+                 uint256 daysPassed = (block.timestamp -
+
+    Mutated line:
+                 uint256 daysPassed = (blo +             tokenInfo.rewardLastCollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLa - tCollectedAt) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollected / t) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 216
+    Result: Equivalent
+    Original line:
+                     (1 days);
+
+    Mutated line:
+                     (1  / s);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 42
+    Result: Killed
+    Original line:
+                 _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 44
+    Result: Lived
+    Original line:
+                 _setupRole(MINTER_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 52
+    Result: Killed
+    Original line:
+                 _mint(to, amount);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 57
+    Result: Killed
+    Original line:
+                 grantRole(MINTER_ROLE, to);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 65
+    Result: Killed
+    Original line:
+                 _mint(msg.sender, tokenId);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 41
+    Result: Equivalent
+    Original line:
+             constructor() ERC20("tokenboy", "TBY") {
+
+    Mutated line:
+             constructor()  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 56
+    Result: Lived
+    Original line:
+             function grantMinterRole(address to) external onlyRole(DEFAULT_ADMIN_ROLE) {
+
+    Mutated line:
+             function grantMinterRole(address to) external  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 62
+    Result: Equivalent
+    Original line:
+             constructor() ERC721("NFT Boy", "NBY") {}
+
+    Mutated line:
+             constructor()  {}
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u <=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f <= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 103
+    Result: Killed
+    Original line:
+                 require(msg.sender == address(stakingToken), "Wrong NFT");
+
+    Mutated line:
+                 require(msg.sender != address(stakingToken), "Wrong NFT");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 124
+    Result: Equivalent
+    Original line:
+                 require(stakers[msg.sender].balance != 0, "No staked tokens found");
+
+    Mutated line:
+                 require(stakers[msg.sen == .balance != 0, "No staked tokens found");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 129
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 139
+    Result: Equivalent
+    Original line:
+                 require(totalRewards != 0, "No rewards accumulated yet");
+
+    Mutated line:
+                 require( == lRewards != 0, "No rewards accumulated yet");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 150
+    Result: Equivalent
+    Original line:
+                 for (uint i = 0; i < tokens.length; i++) {
+
+    Mutated line:
+                 for (u >=  i = 0; i < tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 162
+    Result: Equivalent
+    Original line:
+                 require(stakedTokens[tokenId].staker == msg.sender, "Invalid TokenID");
+
+    Mutated line:
+                 require(stakedTokens[tok != ].staker == msg.sender, "Invalid TokenID");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 182
+    Result: Equivalent
+    Original line:
+                     if (stakerInfo.tokens[i] == tokenId) {
+
+    Mutated line:
+                     if (stakerIn != okens[i] == tokenId) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 181
+    Result: Equivalent
+    Original line:
+                 for (i = 0; i < stakerInfo.tokens.length; i++) {
+
+    Mutated line:
+                 f >= (i = 0; i < stakerInfo.tokens.length; i++) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 192
+    Result: Equivalent
+    Original line:
+                 if (rewards != 0) {
+
+    Mutated line:
+                 == (rewards != 0) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 135
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 155
+    Result: Equivalent
+    Original line:
+                     totalRewards = totalRewards + reward;
+
+    Mutated line:
+                     totalRewards =  - alRewards + reward;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 187
+    Result: Equivalent
+    Original line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.tokens.length - 1];
+
+    Mutated line:
+                 stakerInfo.tokens[i] = stakerInfo.tokens[stakerInfo.t + ns.length - 1];
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 209
+    Result: Equivalent
+    Original line:
+                     tokenInfo.rewardLastCollectedAt) / 1 days;
+
+    Mutated line:
+                     tokenInfo.rewardLast * ollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 208
+    Result: Equivalent
+    Original line:
+                 uint256 daysPassed = (block.timestamp -
+
+    Mutated line:
+                 uint256 daysPassed = (blo +             tokenInfo.rewardLastCollectedAt) / 1 days;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLa - tCollectedAt) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 214
+    Result: Equivalent
+    Original line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollectedAt) +
+
+    Mutated line:
+                 uint256 latestTimestamp = (tokenInfo.rewardLastCollected / t) +
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 216
+    Result: Equivalent
+    Original line:
+                     (1 days);
+
+    Mutated line:
+                     (1  / s);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 42
+    Result: Killed
+    Original line:
+                 _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 44
+    Result: Lived
+    Original line:
+                 _setupRole(MINTER_ROLE, _msgSender());
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 52
+    Result: Killed
+    Original line:
+                 _mint(to, amount);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 57
+    Result: Killed
+    Original line:
+                 grantRole(MINTER_ROLE, to);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 65
+    Result: Killed
+    Original line:
+                 _mint(msg.sender, tokenId);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 41
+    Result: Equivalent
+    Original line:
+             constructor() ERC20("tokenboy", "TBY") {
+
+    Mutated line:
+             constructor()  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 56
+    Result: Lived
+    Original line:
+             function grantMinterRole(address to) external onlyRole(DEFAULT_ADMIN_ROLE) {
+
+    Mutated line:
+             function grantMinterRole(address to) external  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/NFTWithStaking.sol
+    Line nr: 62
+    Result: Equivalent
+    Original line:
+             constructor() ERC721("NFT Boy", "NBY") {}
+
+    Mutated line:
+             constructor()  {}
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 94
+    Result: Equivalent
+    Original line:
+             ) public view returns (uint256) {
+
+    Mutated line:
+             ) public view returns (uint256 !=         if (_sellAmount == 0) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 120
+    Result: Equivalent
+    Original line:
+                 uint256 weiAmount = msg.value;
+
+    Mutated line:
+                 uint256 weiAmount = msg.value; >=        require(weiAmount > 0, "Send ETH to buy some tokens");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 94
+    Result: Equivalent
+    Original line:
+             ) public view returns (uint256) {
+
+    Mutated line:
+             ) public view returns (uint256 !=         if (_sellAmount == 0) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 120
+    Result: Equivalent
+    Original line:
+                 uint256 weiAmount = msg.value;
+
+    Mutated line:
+                 uint256 weiAmount = msg.value; <=        require(weiAmount > 0, "Send ETH to buy some tokens");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 141
+    Result: Equivalent
+    Original line:
+                 uint256 balance = balanceOf(msg.sender);
+
+    Mutated line:
+                 uint256 balance = balanceOf(msg.sende <         require(balance >= amount, "Insufficient balance");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 84
+    Result: Equivalent
+    Original line:
+                 uint256 newTokenSupply = tokenSupply.mul(result) >> precision;
+
+    Mutated line:
+                 uint256 newTokenSupply = tokenSuppl << l(result) >> precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 85
+    Result: Equivalent
+    Original line:
+                 return newTokenSupply - tokenSupply;
+
+    Mutated line:
+                 return n + okenSupply - tokenSupply;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 104
+    Result: Equivalent
+    Original line:
+                 uint256 baseD = _supply - _sellAmount;
+
+    Mutated line:
+              +  uint256 baseD = _supply - _sellAmount;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 114
+    Result: Equivalent
+    Original line:
+                 uint256 newBalance = _reserveBalance << precision;
+
+    Mutated line:
+                 uint256 n >> lance = _reserveBalance << precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 58
+    Result: Killed
+    Original line:
+                 _mint(address(this), 1);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 126
+    Result: Equivalent
+    Original line:
+                 _reserveBalance = _reserveBalance.add(weiAmount);
+
+    Mutated line:
+                 _reserveBalance = _reserveBalanc(msg.sender, tokensToSend);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 147
+    Result: Equivalent
+    Original line:
+                 ethToSend = ethToSend.sub(fees);
+
+    Mutated line:
+                 ethToSend = eth _burn(msg.sender, amount);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 57
+    Result: Equivalent
+    Original line:
+             ) TokenWithGodMode(name, symbol) {
+
+    Mutated line:
+             )  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenSaleWithBondingCurve.sol
+    Line nr: 167
+    Result: Equivalent
+    Original line:
+             function withdrawSellBackFees() external onlyRole(DEFAULT_ADMIN_ROLE) {
+
+    Mutated line:
+             function withdrawSellBackFees() ext_ROLE) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 55
+    Result: Timeout
+    Original line:
+                 require(user != address(0), "Null address error");
+
+    Mutated line:
+                 require(user == address(0), "Null address error");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 33
+    Result: Killed
+    Original line:
+                 _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 34
+    Result: Lived
+    Original line:
+                 _setRoleAdmin(GOD_ROLE, DEFAULT_ADMIN_ROLE);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 35
+    Result: Timeout
+    Original line:
+                 grantRole(GOD_ROLE, msg.sender);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 51
+    Result: Timeout
+    Original line:
+                 _transfer(from, to, amount);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 56
+    Result: Timeout
+    Original line:
+                 grantRole(GOD_ROLE, user);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 57
+    Result: Timeout
+    Original line:
+                 revokeRole(GOD_ROLE, godUser);
+
+    Mutated line:
+                 
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 32
+    Result: Equivalent
+    Original line:
+             constructor(string memory name, string memory symbol) ERC20(name, symbol) {
+
+    Mutated line:
+             constructor(string memory name, string memory symbol)  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 42
+    Result: Killed
+    Original line:
+             ) external onlyRole(DEFAULT_ADMIN_ROLE) {
+
+    Mutated line:
+             ) external  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 50
+    Result: Killed
+    Original line:
+             ) external onlyRole(GOD_ROLE) {
+
+    Mutated line:
+             ) external  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/TokenWithGodMode.sol
+    Line nr: 54
+    Result: Killed
+    Original line:
+             function assignGodRole(address user) external onlyRole(DEFAULT_ADMIN_ROLE) {
+
+    Mutated line:
+             function assignGodRole(address user) external  {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 209
+    Result: Lived
+    Original line:
+                 require(_baseN < MAX_NUM, "baseN exceeds max value.");
+
+    Mutated line:
+                 require(_baseN <= MAX_NUM, "baseN exceeds max value.");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 214
+    Result: Lived
+    Original line:
+                 if (base < OPT_LOG_MAX_VAL) {
+
+    Mutated line:
+                 if (base <= OPT_LOG_MAX_VAL) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 221
+    Result: Lived
+    Original line:
+                 if (baseLogTimesExp < OPT_EXP_MAX_VAL) {
+
+    Mutated line:
+                 if (baseLogTimesExp <= OPT_EXP_MAX_VAL) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 251
+    Result: Lived
+    Original line:
+                 if (x > FIXED_1) {
+
+    Mutated line:
+                 if (x >= FIXED_1) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 252
+    Result: Error
+    Original line:
+                     for (uint8 i = MAX_PRECISION; i > 0; --i) {
+
+    Mutated line:
+                     for (uint8 i = MAX_PRECISION; i >= 0; --i) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 271
+    Result: Lived
+    Original line:
+                 if (n < 256) {
+
+    Mutated line:
+                 if (n <= 256) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 279
+    Result: Timeout
+    Original line:
+                     for (uint8 s = 128; s > 0; s >>= 1) {
+
+    Mutated line:
+                     for (uint8 s = 128; s >= 0; s >>= 1) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 273
+    Result: Lived
+    Original line:
+                     while (n > 1) {
+
+    Mutated line:
+                     while (n >= 1) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 301
+    Result: Timeout
+    Original line:
+                 while (lo + 1 < hi) {
+
+    Mutated line:
+                 while (lo + 1 <= hi) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 209
+    Result: Killed
+    Original line:
+                 require(_baseN < MAX_NUM, "baseN exceeds max value.");
+
+    Mutated line:
+                 require(_baseN >= MAX_NUM, "baseN exceeds max value.");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 210
+    Result: Killed
+    Original line:
+                 require(_baseN >= _baseD, "Bases < 1 are not supported.");
+
+    Mutated line:
+                 require(_baseN < _baseD, "Bases < 1 are not supported.");
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 214
+    Result: Error
+    Original line:
+                 if (base < OPT_LOG_MAX_VAL) {
+
+    Mutated line:
+                 if (base >= OPT_LOG_MAX_VAL) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 221
+    Result: Killed
+    Original line:
+                 if (baseLogTimesExp < OPT_EXP_MAX_VAL) {
+
+    Mutated line:
+                 if (baseLogTimesExp >= OPT_EXP_MAX_VAL) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 244
+    Result: Error
+    Original line:
+                 if (x >= FIXED_2) {
+
+    Mutated line:
+                 if (x < FIXED_2) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 251
+    Result: Killed
+    Original line:
+                 if (x > FIXED_1) {
+
+    Mutated line:
+                 if (x <= FIXED_1) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 254
+    Result: Error
+    Original line:
+                         if (x >= FIXED_2) {
+
+    Mutated line:
+                         if (x < FIXED_2) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 252
+    Result: Killed
+    Original line:
+                     for (uint8 i = MAX_PRECISION; i > 0; --i) {
+
+    Mutated line:
+                     for (uint8 i = MAX_PRECISION; i <= 0; --i) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 271
+    Result: Lived
+    Original line:
+                 if (n < 256) {
+
+    Mutated line:
+                 if (n >= 256) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 280
+    Result: Timeout
+    Original line:
+                         if (n >= (ONE << s)) {
+
+    Mutated line:
+                         if (n < (ONE << s)) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 279
+    Result: Timeout
+    Original line:
+                     for (uint8 s = 128; s > 0; s >>= 1) {
+
+    Mutated line:
+                     for (uint8 s = 128; s <= 0; s >>= 1) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 273
+    Result: Timeout
+    Original line:
+                     while (n > 1) {
+
+    Mutated line:
+                     while (n <= 1) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 303
+    Result: Timeout
+    Original line:
+                     if (maxExpArray[mid] >= _x) lo = mid;
+
+    Mutated line:
+                     if (maxExpArray[mid] < _x) lo = mid;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 301
+    Result: Timeout
+    Original line:
+                 while (lo + 1 < hi) {
+
+    Mutated line:
+                 while (lo + 1 >= hi) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 307
+    Result: Error
+    Original line:
+                 if (maxExpArray[hi] >= _x) return hi;
+
+    Mutated line:
+                 if (maxExpArray[hi] < _x) return hi;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 308
+    Result: Error
+    Original line:
+                 if (maxExpArray[lo] >= _x) return lo;
+
+    Mutated line:
+                 if (maxExpArray[lo] < _x) return lo;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 410
+    Result: Lived
+    Original line:
+                 if (x >= 0xd3094c70f034de4b96ff7d5b6f99fcd8) {
+
+    Mutated line:
+                 if (x < 0xd3094c70f034de4b96ff7d5b6f99fcd8) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 414
+    Result: Lived
+    Original line:
+                 if (x >= 0xa45af1e1f40c333b3de1db4dd55f29a7) {
+
+    Mutated line:
+                 if (x < 0xa45af1e1f40c333b3de1db4dd55f29a7) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 418
+    Result: Lived
+    Original line:
+                 if (x >= 0x910b022db7ae67ce76b441c27035c6a1) {
+
+    Mutated line:
+                 if (x < 0x910b022db7ae67ce76b441c27035c6a1) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 422
+    Result: Lived
+    Original line:
+                 if (x >= 0x88415abbe9a76bead8d00cf112e4d4a8) {
+
+    Mutated line:
+                 if (x < 0x88415abbe9a76bead8d00cf112e4d4a8) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 426
+    Result: Lived
+    Original line:
+                 if (x >= 0x84102b00893f64c705e841d5d4064bd3) {
+
+    Mutated line:
+                 if (x < 0x84102b00893f64c705e841d5d4064bd3) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 430
+    Result: Lived
+    Original line:
+                 if (x >= 0x8204055aaef1c8bd5c3259f4822735a2) {
+
+    Mutated line:
+                 if (x < 0x8204055aaef1c8bd5c3259f4822735a2) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 434
+    Result: Lived
+    Original line:
+                 if (x >= 0x810100ab00222d861931c15e39b44e99) {
+
+    Mutated line:
+                 if (x < 0x810100ab00222d861931c15e39b44e99) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 438
+    Result: Lived
+    Original line:
+                 if (x >= 0x808040155aabbbe9451521693554f733) {
+
+    Mutated line:
+                 if (x < 0x808040155aabbbe9451521693554f733) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 532
+    Result: Timeout
+    Original line:
+                 if ((x & 0x010000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x & 0x010000000000000000000000000000000) == 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 536
+    Result: Timeout
+    Original line:
+                 if ((x & 0x020000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x & 0x020000000000000000000000000000000) == 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 540
+    Result: Timeout
+    Original line:
+                 if ((x & 0x040000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x & 0x040000000000000000000000000000000) == 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 544
+    Result: Timeout
+    Original line:
+                 if ((x & 0x080000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x & 0x080000000000000000000000000000000) == 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 548
+    Result: Lived
+    Original line:
+                 if ((x & 0x100000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x & 0x100000000000000000000000000000000) == 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 552
+    Result: Lived
+    Original line:
+                 if ((x & 0x200000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x & 0x200000000000000000000000000000000) == 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 556
+    Result: Lived
+    Original line:
+                 if ((x & 0x400000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x & 0x400000000000000000000000000000000) == 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 213
+    Result: Lived
+    Original line:
+                 uint256 base = (_baseN * FIXED_1) / _baseD;
+
+    Mutated line:
+                 uint256 base = (_baseN * FIXED_1) * _baseD;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 213
+    Result: Error
+    Original line:
+                 uint256 base = (_baseN * FIXED_1) / _baseD;
+
+    Mutated line:
+                 uint256 base = (_baseN / FIXED_1) / _baseD;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 220
+    Result: Error
+    Original line:
+                 uint256 baseLogTimesExp = (baseLog * _expN) / _expD;
+
+    Mutated line:
+                 uint256 baseLogTimesExp = (baseLog * _expN) * _expD;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 220
+    Result: Killed
+    Original line:
+                 uint256 baseLogTimesExp = (baseLog * _expN) / _expD;
+
+    Mutated line:
+                 uint256 baseLogTimesExp = (baseLog / _expN) / _expD;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 227
+    Result: Error
+    Original line:
+                             baseLogTimesExp >> (MAX_PRECISION - precision),
+
+    Mutated line:
+                             baseLogTimesExp << (MAX_PRECISION - precision),
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 227
+    Result: Killed
+    Original line:
+                             baseLogTimesExp >> (MAX_PRECISION - precision),
+
+    Mutated line:
+                             baseLogTimesExp >> (MAX_PRECISION + precision),
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 245
+    Result: Error
+    Original line:
+                     uint8 count = floorLog2(x / FIXED_1);
+
+    Mutated line:
+                     uint8 count = floorLog2(x * FIXED_1);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 247
+    Result: Killed
+    Original line:
+                     res = count * FIXED_1;
+
+    Mutated line:
+                     res = count / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 253
+    Result: Error
+    Original line:
+                         x = (x * x) / FIXED_1; // now 1 < x < 4
+
+    Mutated line:
+                         x = (x * x) * FIXED_1; // now 1 < x < 4
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 253
+    Result: Error
+    Original line:
+                         x = (x * x) / FIXED_1; // now 1 < x < 4
+
+    Mutated line:
+                         x = (x / x) / FIXED_1; // now 1 < x < 4
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 256
+    Result: Killed
+    Original line:
+                             res += ONE << (i - 1);
+
+    Mutated line:
+                             res += ONE >> (i - 1);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 256
+    Result: Timeout
+    Original line:
+                             res += ONE << (i - 1);
+
+    Mutated line:
+                             res += ONE << (i + 1);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 261
+    Result: Timeout
+    Original line:
+                 return (res * LN2_NUMERATOR) / LN2_DENOMINATOR;
+
+    Mutated line:
+                 return (res * LN2_NUMERATOR) * LN2_DENOMINATOR;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 261
+    Result: Timeout
+    Original line:
+                 return (res * LN2_NUMERATOR) / LN2_DENOMINATOR;
+
+    Mutated line:
+                 return (res / LN2_NUMERATOR) / LN2_DENOMINATOR;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 280
+    Result: Timeout
+    Original line:
+                         if (n >= (ONE << s)) {
+
+    Mutated line:
+                         if (n >= (ONE >> s)) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 302
+    Result: Timeout
+    Original line:
+                     uint8 mid = (lo + hi) / 2;
+
+    Mutated line:
+                     uint8 mid = (lo + hi) * 2;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 302
+    Result: Error
+    Original line:
+                     uint8 mid = (lo + hi) / 2;
+
+    Mutated line:
+                     uint8 mid = (lo - hi) / 2;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 301
+    Result: Timeout
+    Original line:
+                 while (lo + 1 < hi) {
+
+    Mutated line:
+                 while (lo - 1 < hi) {
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 329
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 329
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 330
+    Result: Timeout
+    Original line:
+                 res += xi * 0x3442c4e6074a82f1797f72ac0000000; // add x^02 * (33! / 02!)
+
+    Mutated line:
+                 res += xi / 0x3442c4e6074a82f1797f72ac0000000; // add x^02 * (33! / 02!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 331
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 331
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 332
+    Result: Timeout
+    Original line:
+                 res += xi * 0x116b96f757c380fb287fd0e40000000; // add x^03 * (33! / 03!)
+
+    Mutated line:
+                 res += xi / 0x116b96f757c380fb287fd0e40000000; // add x^03 * (33! / 03!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 333
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 333
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 334
+    Result: Killed
+    Original line:
+                 res += xi * 0x045ae5bdd5f0e03eca1ff4390000000; // add x^04 * (33! / 04!)
+
+    Mutated line:
+                 res += xi / 0x045ae5bdd5f0e03eca1ff4390000000; // add x^04 * (33! / 04!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 335
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 335
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 336
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00defabf91302cd95b9ffda50000000; // add x^05 * (33! / 05!)
+
+    Mutated line:
+                 res += xi / 0x00defabf91302cd95b9ffda50000000; // add x^05 * (33! / 05!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 337
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 337
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 338
+    Result: Killed
+    Original line:
+                 res += xi * 0x002529ca9832b22439efff9b8000000; // add x^06 * (33! / 06!)
+
+    Mutated line:
+                 res += xi / 0x002529ca9832b22439efff9b8000000; // add x^06 * (33! / 06!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 339
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 339
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 340
+    Result: Killed
+    Original line:
+                 res += xi * 0x00054f1cf12bd04e516b6da88000000; // add x^07 * (33! / 07!)
+
+    Mutated line:
+                 res += xi / 0x00054f1cf12bd04e516b6da88000000; // add x^07 * (33! / 07!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 341
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 341
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 342
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000a9e39e257a09ca2d6db51000000; // add x^08 * (33! / 08!)
+
+    Mutated line:
+                 res += xi / 0x0000a9e39e257a09ca2d6db51000000; // add x^08 * (33! / 08!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 343
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 343
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 344
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000012e066e7b839fa050c309000000; // add x^09 * (33! / 09!)
+
+    Mutated line:
+                 res += xi / 0x000012e066e7b839fa050c309000000; // add x^09 * (33! / 09!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 345
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 345
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 346
+    Result: Killed
+    Original line:
+                 res += xi * 0x000001e33d7d926c329a1ad1a800000; // add x^10 * (33! / 10!)
+
+    Mutated line:
+                 res += xi / 0x000001e33d7d926c329a1ad1a800000; // add x^10 * (33! / 10!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 347
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 347
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 348
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000002bee513bdb4a6b19b5f800000; // add x^11 * (33! / 11!)
+
+    Mutated line:
+                 res += xi / 0x0000002bee513bdb4a6b19b5f800000; // add x^11 * (33! / 11!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 349
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 349
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 350
+    Result: Killed
+    Original line:
+                 res += xi * 0x00000003a9316fa79b88eccf2a00000; // add x^12 * (33! / 12!)
+
+    Mutated line:
+                 res += xi / 0x00000003a9316fa79b88eccf2a00000; // add x^12 * (33! / 12!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 351
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 351
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 352
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000048177ebe1fa812375200000; // add x^13 * (33! / 13!)
+
+    Mutated line:
+                 res += xi / 0x0000000048177ebe1fa812375200000; // add x^13 * (33! / 13!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 353
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 353
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 354
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000005263fe90242dcbacf00000; // add x^14 * (33! / 14!)
+
+    Mutated line:
+                 res += xi / 0x0000000005263fe90242dcbacf00000; // add x^14 * (33! / 14!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 355
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 355
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 356
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000057e22099c030d94100000; // add x^15 * (33! / 15!)
+
+    Mutated line:
+                 res += xi / 0x000000000057e22099c030d94100000; // add x^15 * (33! / 15!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 357
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 357
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 358
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000000057e22099c030d9410000; // add x^16 * (33! / 16!)
+
+    Mutated line:
+                 res += xi / 0x0000000000057e22099c030d9410000; // add x^16 * (33! / 16!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 359
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 359
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 360
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000052b6b54569976310000; // add x^17 * (33! / 17!)
+
+    Mutated line:
+                 res += xi / 0x00000000000052b6b54569976310000; // add x^17 * (33! / 17!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 361
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 361
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 362
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000004985f67696bf748000; // add x^18 * (33! / 18!)
+
+    Mutated line:
+                 res += xi / 0x00000000000004985f67696bf748000; // add x^18 * (33! / 18!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 363
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 363
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 364
+    Result: Killed
+    Original line:
+                 res += xi * 0x000000000000003dea12ea99e498000; // add x^19 * (33! / 19!)
+
+    Mutated line:
+                 res += xi / 0x000000000000003dea12ea99e498000; // add x^19 * (33! / 19!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 365
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 365
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 366
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000000031880f2214b6e000; // add x^20 * (33! / 20!)
+
+    Mutated line:
+                 res += xi / 0x00000000000000031880f2214b6e000; // add x^20 * (33! / 20!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 367
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 367
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 368
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000000000025bcff56eb36000; // add x^21 * (33! / 21!)
+
+    Mutated line:
+                 res += xi / 0x000000000000000025bcff56eb36000; // add x^21 * (33! / 21!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 369
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 369
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 370
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000000000001b722e10ab1000; // add x^22 * (33! / 22!)
+
+    Mutated line:
+                 res += xi / 0x000000000000000001b722e10ab1000; // add x^22 * (33! / 22!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 371
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 371
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 372
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000000000000001317c70077000; // add x^23 * (33! / 23!)
+
+    Mutated line:
+                 res += xi / 0x0000000000000000001317c70077000; // add x^23 * (33! / 23!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 373
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 373
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 374
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000000000000cba84aafa00; // add x^24 * (33! / 24!)
+
+    Mutated line:
+                 res += xi / 0x00000000000000000000cba84aafa00; // add x^24 * (33! / 24!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 375
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 375
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 376
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000000000000082573a0a00; // add x^25 * (33! / 25!)
+
+    Mutated line:
+                 res += xi / 0x00000000000000000000082573a0a00; // add x^25 * (33! / 25!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 377
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 377
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 378
+    Result: Killed
+    Original line:
+                 res += xi * 0x00000000000000000000005035ad900; // add x^26 * (33! / 26!)
+
+    Mutated line:
+                 res += xi / 0x00000000000000000000005035ad900; // add x^26 * (33! / 26!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 379
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 379
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 380
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000000000000000002f881b00; // add x^27 * (33! / 27!)
+
+    Mutated line:
+                 res += xi / 0x000000000000000000000002f881b00; // add x^27 * (33! / 27!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 381
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 381
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 382
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000000000000000000001b29340; // add x^28 * (33! / 28!)
+
+    Mutated line:
+                 res += xi / 0x0000000000000000000000001b29340; // add x^28 * (33! / 28!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 383
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 383
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 384
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000000000000000000efc40; // add x^29 * (33! / 29!)
+
+    Mutated line:
+                 res += xi / 0x00000000000000000000000000efc40; // add x^29 * (33! / 29!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 385
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 385
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 386
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000000000000007fe0; // add x^30 * (33! / 30!)
+
+    Mutated line:
+                 res += xi / 0x0000000000000000000000000007fe0; // add x^30 * (33! / 30!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 387
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 387
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 388
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000000000000000000000000420; // add x^31 * (33! / 31!)
+
+    Mutated line:
+                 res += xi / 0x0000000000000000000000000000420; // add x^31 * (33! / 31!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 389
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 389
+    Result: Timeout
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 390
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000000000000000021; // add x^32 * (33! / 32!)
+
+    Mutated line:
+                 res += xi / 0x0000000000000000000000000000021; // add x^32 * (33! / 32!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 391
+    Result: Error
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi * _x) << _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 391
+    Result: Killed
+    Original line:
+                 xi = (xi * _x) >> _precision;
+
+    Mutated line:
+                 xi = (xi / _x) >> _precision;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 392
+    Result: Lived
+    Original line:
+                 res += xi * 0x0000000000000000000000000000001; // add x^33 * (33! / 33!)
+
+    Mutated line:
+                 res += xi / 0x0000000000000000000000000000001; // add x^33 * (33! / 33!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 395
+    Result: Killed
+    Original line:
+                     res / 0x688589cc0e9505e2f2fee5580000000 + _x + (ONE << _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+    Mutated line:
+                     res / 0x688589cc0e9505e2f2fee5580000000 + _x - (ONE << _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 395
+    Result: Killed
+    Original line:
+                     res / 0x688589cc0e9505e2f2fee5580000000 + _x + (ONE << _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+    Mutated line:
+                     res / 0x688589cc0e9505e2f2fee5580000000 - _x + (ONE << _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 395
+    Result: Error
+    Original line:
+                     res / 0x688589cc0e9505e2f2fee5580000000 + _x + (ONE << _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+    Mutated line:
+                     res * 0x688589cc0e9505e2f2fee5580000000 + _x + (ONE << _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 395
+    Result: Killed
+    Original line:
+                     res / 0x688589cc0e9505e2f2fee5580000000 + _x + (ONE << _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+    Mutated line:
+                     res / 0x688589cc0e9505e2f2fee5580000000 + _x + (ONE >> _precision); // divide by 33! and then add x^1 / 1! + x^0 / 0!
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 412
+    Result: Timeout
+    Original line:
+                     x = (x * FIXED_1) / 0xd3094c70f034de4b96ff7d5b6f99fcd8;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0xd3094c70f034de4b96ff7d5b6f99fcd8;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 412
+    Result: Timeout
+    Original line:
+                     x = (x * FIXED_1) / 0xd3094c70f034de4b96ff7d5b6f99fcd8;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0xd3094c70f034de4b96ff7d5b6f99fcd8;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 416
+    Result: Timeout
+    Original line:
+                     x = (x * FIXED_1) / 0xa45af1e1f40c333b3de1db4dd55f29a7;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0xa45af1e1f40c333b3de1db4dd55f29a7;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 416
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0xa45af1e1f40c333b3de1db4dd55f29a7;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0xa45af1e1f40c333b3de1db4dd55f29a7;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 420
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x910b022db7ae67ce76b441c27035c6a1;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0x910b022db7ae67ce76b441c27035c6a1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 420
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x910b022db7ae67ce76b441c27035c6a1;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0x910b022db7ae67ce76b441c27035c6a1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 424
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x88415abbe9a76bead8d00cf112e4d4a8;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0x88415abbe9a76bead8d00cf112e4d4a8;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 424
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x88415abbe9a76bead8d00cf112e4d4a8;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0x88415abbe9a76bead8d00cf112e4d4a8;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 428
+    Result: Timeout
+    Original line:
+                     x = (x * FIXED_1) / 0x84102b00893f64c705e841d5d4064bd3;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0x84102b00893f64c705e841d5d4064bd3;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 428
+    Result: Timeout
+    Original line:
+                     x = (x * FIXED_1) / 0x84102b00893f64c705e841d5d4064bd3;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0x84102b00893f64c705e841d5d4064bd3;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 432
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x8204055aaef1c8bd5c3259f4822735a2;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0x8204055aaef1c8bd5c3259f4822735a2;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 432
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x8204055aaef1c8bd5c3259f4822735a2;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0x8204055aaef1c8bd5c3259f4822735a2;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 436
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x810100ab00222d861931c15e39b44e99;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0x810100ab00222d861931c15e39b44e99;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 436
+    Result: Killed
+    Original line:
+                     x = (x * FIXED_1) / 0x810100ab00222d861931c15e39b44e99;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0x810100ab00222d861931c15e39b44e99;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 440
+    Result: Lived
+    Original line:
+                     x = (x * FIXED_1) / 0x808040155aabbbe9451521693554f733;
+
+    Mutated line:
+                     x = (x * FIXED_1) * 0x808040155aabbbe9451521693554f733;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 440
+    Result: Timeout
+    Original line:
+                     x = (x * FIXED_1) / 0x808040155aabbbe9451521693554f733;
+
+    Mutated line:
+                     x = (x / FIXED_1) / 0x808040155aabbbe9451521693554f733;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 443
+    Result: Timeout
+    Original line:
+                 z = y = x - FIXED_1;
+
+    Mutated line:
+                 z = y = x + FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 444
+    Result: Timeout
+    Original line:
+                 w = (y * y) / FIXED_1;
+
+    Mutated line:
+                 w = (y * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 444
+    Result: Timeout
+    Original line:
+                 w = (y * y) / FIXED_1;
+
+    Mutated line:
+                 w = (y / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 446
+    Result: Timeout
+    Original line:
+                     (z * (0x100000000000000000000000000000000 - y)) /
+
+    Mutated line:
+                     (z * (0x100000000000000000000000000000000 - y)) * 0x100000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 446
+    Result: Lived
+    Original line:
+                     (z * (0x100000000000000000000000000000000 - y)) /
+
+    Mutated line:
+                     (z / (0x100000000000000000000000000000000 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 446
+    Result: Lived
+    Original line:
+                     (z * (0x100000000000000000000000000000000 - y)) /
+
+    Mutated line:
+                     (z * (0x100000000000000000000000000000000 + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 448
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z * w) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 448
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z / w) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 450
+    Result: Lived
+    Original line:
+                     (z * (0x0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa - y)) /
+
+    Mutated line:
+                     (z * (0x0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa - y)) * 0x200000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 450
+    Result: Lived
+    Original line:
+                     (z * (0x0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa - y)) /
+
+    Mutated line:
+                     (z / (0x0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 450
+    Result: Lived
+    Original line:
+                     (z * (0x0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa - y)) /
+
+    Mutated line:
+                     (z * (0x0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 452
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z * w) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 452
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z / w) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 454
+    Result: Lived
+    Original line:
+                     (z * (0x099999999999999999999999999999999 - y)) /
+
+    Mutated line:
+                     (z * (0x099999999999999999999999999999999 - y)) * 0x300000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 454
+    Result: Lived
+    Original line:
+                     (z * (0x099999999999999999999999999999999 - y)) /
+
+    Mutated line:
+                     (z / (0x099999999999999999999999999999999 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 454
+    Result: Lived
+    Original line:
+                     (z * (0x099999999999999999999999999999999 - y)) /
+
+    Mutated line:
+                     (z * (0x099999999999999999999999999999999 + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 456
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z * w) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 456
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z / w) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 458
+    Result: Lived
+    Original line:
+                     (z * (0x092492492492492492492492492492492 - y)) /
+
+    Mutated line:
+                     (z * (0x092492492492492492492492492492492 - y)) * 0x400000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 458
+    Result: Lived
+    Original line:
+                     (z * (0x092492492492492492492492492492492 - y)) /
+
+    Mutated line:
+                     (z / (0x092492492492492492492492492492492 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 458
+    Result: Lived
+    Original line:
+                     (z * (0x092492492492492492492492492492492 - y)) /
+
+    Mutated line:
+                     (z * (0x092492492492492492492492492492492 + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 460
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z * w) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 460
+    Result: Timeout
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z / w) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 462
+    Result: Timeout
+    Original line:
+                     (z * (0x08e38e38e38e38e38e38e38e38e38e38e - y)) /
+
+    Mutated line:
+                     (z * (0x08e38e38e38e38e38e38e38e38e38e38e - y)) * 0x500000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 462
+    Result: Timeout
+    Original line:
+                     (z * (0x08e38e38e38e38e38e38e38e38e38e38e - y)) /
+
+    Mutated line:
+                     (z / (0x08e38e38e38e38e38e38e38e38e38e38e - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 462
+    Result: Timeout
+    Original line:
+                     (z * (0x08e38e38e38e38e38e38e38e38e38e38e - y)) /
+
+    Mutated line:
+                     (z * (0x08e38e38e38e38e38e38e38e38e38e38e + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 464
+    Result: Timeout
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z * w) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 464
+    Result: Timeout
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z / w) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 466
+    Result: Lived
+    Original line:
+                     (z * (0x08ba2e8ba2e8ba2e8ba2e8ba2e8ba2e8b - y)) /
+
+    Mutated line:
+                     (z * (0x08ba2e8ba2e8ba2e8ba2e8ba2e8ba2e8b - y)) * 0x600000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 466
+    Result: Lived
+    Original line:
+                     (z * (0x08ba2e8ba2e8ba2e8ba2e8ba2e8ba2e8b - y)) /
+
+    Mutated line:
+                     (z / (0x08ba2e8ba2e8ba2e8ba2e8ba2e8ba2e8b - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 466
+    Result: Lived
+    Original line:
+                     (z * (0x08ba2e8ba2e8ba2e8ba2e8ba2e8ba2e8b - y)) /
+
+    Mutated line:
+                     (z * (0x08ba2e8ba2e8ba2e8ba2e8ba2e8ba2e8b + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 468
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z * w) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 468
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z / w) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 470
+    Result: Lived
+    Original line:
+                     (z * (0x089d89d89d89d89d89d89d89d89d89d89 - y)) /
+
+    Mutated line:
+                     (z * (0x089d89d89d89d89d89d89d89d89d89d89 - y)) * 0x700000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 470
+    Result: Lived
+    Original line:
+                     (z * (0x089d89d89d89d89d89d89d89d89d89d89 - y)) /
+
+    Mutated line:
+                     (z / (0x089d89d89d89d89d89d89d89d89d89d89 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 470
+    Result: Lived
+    Original line:
+                     (z * (0x089d89d89d89d89d89d89d89d89d89d89 - y)) /
+
+    Mutated line:
+                     (z * (0x089d89d89d89d89d89d89d89d89d89d89 + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 472
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z * w) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 472
+    Result: Lived
+    Original line:
+                 z = (z * w) / FIXED_1;
+
+    Mutated line:
+                 z = (z / w) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 474
+    Result: Lived
+    Original line:
+                     (z * (0x088888888888888888888888888888888 - y)) /
+
+    Mutated line:
+                     (z * (0x088888888888888888888888888888888 - y)) * 0x800000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 474
+    Result: Lived
+    Original line:
+                     (z * (0x088888888888888888888888888888888 - y)) /
+
+    Mutated line:
+                     (z / (0x088888888888888888888888888888888 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 474
+    Result: Lived
+    Original line:
+                     (z * (0x088888888888888888888888888888888 - y)) /
+
+    Mutated line:
+                     (z * (0x088888888888888888888888888888888 + y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 492
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 492
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 493
+    Result: Timeout
+    Original line:
+                 res += z * 0x10e1b3be415a0000; // add y^02 * (20! / 02!)
+
+    Mutated line:
+                 res += z / 0x10e1b3be415a0000; // add y^02 * (20! / 02!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 494
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 494
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 495
+    Result: Lived
+    Original line:
+                 res += z * 0x05a0913f6b1e0000; // add y^03 * (20! / 03!)
+
+    Mutated line:
+                 res += z / 0x05a0913f6b1e0000; // add y^03 * (20! / 03!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 496
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 496
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 497
+    Result: Lived
+    Original line:
+                 res += z * 0x0168244fdac78000; // add y^04 * (20! / 04!)
+
+    Mutated line:
+                 res += z / 0x0168244fdac78000; // add y^04 * (20! / 04!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 498
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 498
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 499
+    Result: Lived
+    Original line:
+                 res += z * 0x004807432bc18000; // add y^05 * (20! / 05!)
+
+    Mutated line:
+                 res += z / 0x004807432bc18000; // add y^05 * (20! / 05!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 500
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 500
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 501
+    Result: Lived
+    Original line:
+                 res += z * 0x000c0135dca04000; // add y^06 * (20! / 06!)
+
+    Mutated line:
+                 res += z / 0x000c0135dca04000; // add y^06 * (20! / 06!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 502
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 502
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 503
+    Result: Lived
+    Original line:
+                 res += z * 0x0001b707b1cdc000; // add y^07 * (20! / 07!)
+
+    Mutated line:
+                 res += z / 0x0001b707b1cdc000; // add y^07 * (20! / 07!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 504
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 504
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 505
+    Result: Lived
+    Original line:
+                 res += z * 0x000036e0f639b800; // add y^08 * (20! / 08!)
+
+    Mutated line:
+                 res += z / 0x000036e0f639b800; // add y^08 * (20! / 08!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 506
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 506
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 507
+    Result: Lived
+    Original line:
+                 res += z * 0x00000618fee9f800; // add y^09 * (20! / 09!)
+
+    Mutated line:
+                 res += z / 0x00000618fee9f800; // add y^09 * (20! / 09!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 508
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 508
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 509
+    Result: Lived
+    Original line:
+                 res += z * 0x0000009c197dcc00; // add y^10 * (20! / 10!)
+
+    Mutated line:
+                 res += z / 0x0000009c197dcc00; // add y^10 * (20! / 10!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 510
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 510
+    Result: Killed
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 511
+    Result: Lived
+    Original line:
+                 res += z * 0x0000000e30dce400; // add y^11 * (20! / 11!)
+
+    Mutated line:
+                 res += z / 0x0000000e30dce400; // add y^11 * (20! / 11!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 512
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 512
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 513
+    Result: Lived
+    Original line:
+                 res += z * 0x000000012ebd1300; // add y^12 * (20! / 12!)
+
+    Mutated line:
+                 res += z / 0x000000012ebd1300; // add y^12 * (20! / 12!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 514
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 514
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 515
+    Result: Lived
+    Original line:
+                 res += z * 0x0000000017499f00; // add y^13 * (20! / 13!)
+
+    Mutated line:
+                 res += z / 0x0000000017499f00; // add y^13 * (20! / 13!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 516
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 516
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 517
+    Result: Lived
+    Original line:
+                 res += z * 0x0000000001a9d480; // add y^14 * (20! / 14!)
+
+    Mutated line:
+                 res += z / 0x0000000001a9d480; // add y^14 * (20! / 14!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 518
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 518
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 519
+    Result: Lived
+    Original line:
+                 res += z * 0x00000000001c6380; // add y^15 * (20! / 15!)
+
+    Mutated line:
+                 res += z / 0x00000000001c6380; // add y^15 * (20! / 15!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 520
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 520
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 521
+    Result: Lived
+    Original line:
+                 res += z * 0x000000000001c638; // add y^16 * (20! / 16!)
+
+    Mutated line:
+                 res += z / 0x000000000001c638; // add y^16 * (20! / 16!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 522
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 522
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 523
+    Result: Lived
+    Original line:
+                 res += z * 0x0000000000001ab8; // add y^17 * (20! / 17!)
+
+    Mutated line:
+                 res += z / 0x0000000000001ab8; // add y^17 * (20! / 17!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 524
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 524
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 525
+    Result: Lived
+    Original line:
+                 res += z * 0x000000000000017c; // add y^18 * (20! / 18!)
+
+    Mutated line:
+                 res += z / 0x000000000000017c; // add y^18 * (20! / 18!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 526
+    Result: Killed
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 526
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 527
+    Result: Lived
+    Original line:
+                 res += z * 0x0000000000000014; // add y^19 * (20! / 19!)
+
+    Mutated line:
+                 res += z / 0x0000000000000014; // add y^19 * (20! / 19!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 528
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z * y) * FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 528
+    Result: Lived
+    Original line:
+                 z = (z * y) / FIXED_1;
+
+    Mutated line:
+                 z = (z / y) / FIXED_1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 529
+    Result: Lived
+    Original line:
+                 res += z * 0x0000000000000001; // add y^20 * (20! / 20!)
+
+    Mutated line:
+                 res += z / 0x0000000000000001; // add y^20 * (20! / 20!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 530
+    Result: Lived
+    Original line:
+                 res = res / 0x21c3677c82b40000 + y + FIXED_1; // divide by 20! and then add y^1 / 1! + y^0 / 0!
+
+    Mutated line:
+                 res = res / 0x21c3677c82b40000 + y - FIXED_1; // divide by 20! and then add y^1 / 1! + y^0 / 0!
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 530
+    Result: Lived
+    Original line:
+                 res = res / 0x21c3677c82b40000 + y + FIXED_1; // divide by 20! and then add y^1 / 1! + y^0 / 0!
+
+    Mutated line:
+                 res = res / 0x21c3677c82b40000 - y + FIXED_1; // divide by 20! and then add y^1 / 1! + y^0 / 0!
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 530
+    Result: Lived
+    Original line:
+                 res = res / 0x21c3677c82b40000 + y + FIXED_1; // divide by 20! and then add y^1 / 1! + y^0 / 0!
+
+    Mutated line:
+                 res = res * 0x21c3677c82b40000 + y + FIXED_1; // divide by 20! and then add y^1 / 1! + y^0 / 0!
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 532
+    Result: Lived
+    Original line:
+                 if ((x & 0x010000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x | 0x010000000000000000000000000000000) != 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 534
+    Result: Timeout
+    Original line:
+                         (res * 0x1c3d6a24ed82218787d624d3e5eba95f9) /
+
+    Mutated line:
+                         (res * 0x1c3d6a24ed82218787d624d3e5eba95f9) * 0x18ebef9eac820ae8682b9793ac6d1e776;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 534
+    Result: Timeout
+    Original line:
+                         (res * 0x1c3d6a24ed82218787d624d3e5eba95f9) /
+
+    Mutated line:
+                         (res / 0x1c3d6a24ed82218787d624d3e5eba95f9) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 536
+    Result: Timeout
+    Original line:
+                 if ((x & 0x020000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x | 0x020000000000000000000000000000000) != 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 538
+    Result: Lived
+    Original line:
+                         (res * 0x18ebef9eac820ae8682b9793ac6d1e778) /
+
+    Mutated line:
+                         (res * 0x18ebef9eac820ae8682b9793ac6d1e778) * 0x1368b2fc6f9609fe7aceb46aa619baed4;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 538
+    Result: Lived
+    Original line:
+                         (res * 0x18ebef9eac820ae8682b9793ac6d1e778) /
+
+    Mutated line:
+                         (res / 0x18ebef9eac820ae8682b9793ac6d1e778) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 540
+    Result: Lived
+    Original line:
+                 if ((x & 0x040000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x | 0x040000000000000000000000000000000) != 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 542
+    Result: Lived
+    Original line:
+                         (res * 0x1368b2fc6f9609fe7aceb46aa619baed5) /
+
+    Mutated line:
+                         (res * 0x1368b2fc6f9609fe7aceb46aa619baed5) * 0x0bc5ab1b16779be3575bd8f0520a9f21f;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 542
+    Result: Lived
+    Original line:
+                         (res * 0x1368b2fc6f9609fe7aceb46aa619baed5) /
+
+    Mutated line:
+                         (res / 0x1368b2fc6f9609fe7aceb46aa619baed5) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 544
+    Result: Lived
+    Original line:
+                 if ((x & 0x080000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x | 0x080000000000000000000000000000000) != 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 546
+    Result: Lived
+    Original line:
+                         (res * 0x0bc5ab1b16779be3575bd8f0520a9f21e) /
+
+    Mutated line:
+                         (res * 0x0bc5ab1b16779be3575bd8f0520a9f21e) * 0x0454aaa8efe072e7f6ddbab84b40a55c9;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 546
+    Result: Lived
+    Original line:
+                         (res * 0x0bc5ab1b16779be3575bd8f0520a9f21e) /
+
+    Mutated line:
+                         (res / 0x0bc5ab1b16779be3575bd8f0520a9f21e) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 548
+    Result: Lived
+    Original line:
+                 if ((x & 0x100000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x | 0x100000000000000000000000000000000) != 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 550
+    Result: Lived
+    Original line:
+                         (res * 0x0454aaa8efe072e7f6ddbab84b40a55c5) /
+
+    Mutated line:
+                         (res * 0x0454aaa8efe072e7f6ddbab84b40a55c5) * 0x00960aadc109e7a3bf4578099615711ea;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 550
+    Result: Lived
+    Original line:
+                         (res * 0x0454aaa8efe072e7f6ddbab84b40a55c5) /
+
+    Mutated line:
+                         (res / 0x0454aaa8efe072e7f6ddbab84b40a55c5) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 552
+    Result: Lived
+    Original line:
+                 if ((x & 0x200000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x | 0x200000000000000000000000000000000) != 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 554
+    Result: Lived
+    Original line:
+                         (res * 0x00960aadc109e7a3bf4578099615711d7) /
+
+    Mutated line:
+                         (res * 0x00960aadc109e7a3bf4578099615711d7) * 0x0002bf84208204f5977f9a8cf01fdce3d;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 554
+    Result: Lived
+    Original line:
+                         (res * 0x00960aadc109e7a3bf4578099615711d7) /
+
+    Mutated line:
+                         (res / 0x00960aadc109e7a3bf4578099615711d7) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 556
+    Result: Lived
+    Original line:
+                 if ((x & 0x400000000000000000000000000000000) != 0)
+
+    Mutated line:
+                 if ((x | 0x400000000000000000000000000000000) != 0)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 558
+    Result: Lived
+    Original line:
+                         (res * 0x0002bf84208204f5977f9a8cf01fdc307) /
+
+    Mutated line:
+                         (res * 0x0002bf84208204f5977f9a8cf01fdc307) * 0x0000003c6ab775dd0b95b4cbee7e65d11;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 558
+    Result: Lived
+    Original line:
+                         (res * 0x0002bf84208204f5977f9a8cf01fdc307) /
+
+    Mutated line:
+                         (res / 0x0002bf84208204f5977f9a8cf01fdc307) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 256
+    Result: Killed
+    Original line:
+                             res += ONE << (i - 1);
+
+    Mutated line:
+                             res -= ONE << (i - 1);
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 275
+    Result: Lived
+    Original line:
+                         res += 1;
+
+    Mutated line:
+                         res -= 1;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 330
+    Result: Error
+    Original line:
+                 res += xi * 0x3442c4e6074a82f1797f72ac0000000; // add x^02 * (33! / 02!)
+
+    Mutated line:
+                 res -= xi * 0x3442c4e6074a82f1797f72ac0000000; // add x^02 * (33! / 02!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 332
+    Result: Error
+    Original line:
+                 res += xi * 0x116b96f757c380fb287fd0e40000000; // add x^03 * (33! / 03!)
+
+    Mutated line:
+                 res -= xi * 0x116b96f757c380fb287fd0e40000000; // add x^03 * (33! / 03!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 334
+    Result: Error
+    Original line:
+                 res += xi * 0x045ae5bdd5f0e03eca1ff4390000000; // add x^04 * (33! / 04!)
+
+    Mutated line:
+                 res -= xi * 0x045ae5bdd5f0e03eca1ff4390000000; // add x^04 * (33! / 04!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 336
+    Result: Error
+    Original line:
+                 res += xi * 0x00defabf91302cd95b9ffda50000000; // add x^05 * (33! / 05!)
+
+    Mutated line:
+                 res -= xi * 0x00defabf91302cd95b9ffda50000000; // add x^05 * (33! / 05!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 338
+    Result: Error
+    Original line:
+                 res += xi * 0x002529ca9832b22439efff9b8000000; // add x^06 * (33! / 06!)
+
+    Mutated line:
+                 res -= xi * 0x002529ca9832b22439efff9b8000000; // add x^06 * (33! / 06!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 340
+    Result: Error
+    Original line:
+                 res += xi * 0x00054f1cf12bd04e516b6da88000000; // add x^07 * (33! / 07!)
+
+    Mutated line:
+                 res -= xi * 0x00054f1cf12bd04e516b6da88000000; // add x^07 * (33! / 07!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 342
+    Result: Error
+    Original line:
+                 res += xi * 0x0000a9e39e257a09ca2d6db51000000; // add x^08 * (33! / 08!)
+
+    Mutated line:
+                 res -= xi * 0x0000a9e39e257a09ca2d6db51000000; // add x^08 * (33! / 08!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 344
+    Result: Error
+    Original line:
+                 res += xi * 0x000012e066e7b839fa050c309000000; // add x^09 * (33! / 09!)
+
+    Mutated line:
+                 res -= xi * 0x000012e066e7b839fa050c309000000; // add x^09 * (33! / 09!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 346
+    Result: Error
+    Original line:
+                 res += xi * 0x000001e33d7d926c329a1ad1a800000; // add x^10 * (33! / 10!)
+
+    Mutated line:
+                 res -= xi * 0x000001e33d7d926c329a1ad1a800000; // add x^10 * (33! / 10!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 348
+    Result: Error
+    Original line:
+                 res += xi * 0x0000002bee513bdb4a6b19b5f800000; // add x^11 * (33! / 11!)
+
+    Mutated line:
+                 res -= xi * 0x0000002bee513bdb4a6b19b5f800000; // add x^11 * (33! / 11!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 350
+    Result: Error
+    Original line:
+                 res += xi * 0x00000003a9316fa79b88eccf2a00000; // add x^12 * (33! / 12!)
+
+    Mutated line:
+                 res -= xi * 0x00000003a9316fa79b88eccf2a00000; // add x^12 * (33! / 12!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 352
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000048177ebe1fa812375200000; // add x^13 * (33! / 13!)
+
+    Mutated line:
+                 res -= xi * 0x0000000048177ebe1fa812375200000; // add x^13 * (33! / 13!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 354
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000005263fe90242dcbacf00000; // add x^14 * (33! / 14!)
+
+    Mutated line:
+                 res -= xi * 0x0000000005263fe90242dcbacf00000; // add x^14 * (33! / 14!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 356
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000057e22099c030d94100000; // add x^15 * (33! / 15!)
+
+    Mutated line:
+                 res -= xi * 0x000000000057e22099c030d94100000; // add x^15 * (33! / 15!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 358
+    Result: Timeout
+    Original line:
+                 res += xi * 0x0000000000057e22099c030d9410000; // add x^16 * (33! / 16!)
+
+    Mutated line:
+                 res -= xi * 0x0000000000057e22099c030d9410000; // add x^16 * (33! / 16!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 360
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000052b6b54569976310000; // add x^17 * (33! / 17!)
+
+    Mutated line:
+                 res -= xi * 0x00000000000052b6b54569976310000; // add x^17 * (33! / 17!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 362
+    Result: Timeout
+    Original line:
+                 res += xi * 0x00000000000004985f67696bf748000; // add x^18 * (33! / 18!)
+
+    Mutated line:
+                 res -= xi * 0x00000000000004985f67696bf748000; // add x^18 * (33! / 18!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 364
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000000003dea12ea99e498000; // add x^19 * (33! / 19!)
+
+    Mutated line:
+                 res -= xi * 0x000000000000003dea12ea99e498000; // add x^19 * (33! / 19!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 366
+    Result: Error
+    Original line:
+                 res += xi * 0x00000000000000031880f2214b6e000; // add x^20 * (33! / 20!)
+
+    Mutated line:
+                 res -= xi * 0x00000000000000031880f2214b6e000; // add x^20 * (33! / 20!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 368
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000000000025bcff56eb36000; // add x^21 * (33! / 21!)
+
+    Mutated line:
+                 res -= xi * 0x000000000000000025bcff56eb36000; // add x^21 * (33! / 21!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 370
+    Result: Timeout
+    Original line:
+                 res += xi * 0x000000000000000001b722e10ab1000; // add x^22 * (33! / 22!)
+
+    Mutated line:
+                 res -= xi * 0x000000000000000001b722e10ab1000; // add x^22 * (33! / 22!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 372
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000001317c70077000; // add x^23 * (33! / 23!)
+
+    Mutated line:
+                 res -= xi * 0x0000000000000000001317c70077000; // add x^23 * (33! / 23!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 374
+    Result: Killed
+    Original line:
+                 res += xi * 0x00000000000000000000cba84aafa00; // add x^24 * (33! / 24!)
+
+    Mutated line:
+                 res -= xi * 0x00000000000000000000cba84aafa00; // add x^24 * (33! / 24!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 376
+    Result: Killed
+    Original line:
+                 res += xi * 0x00000000000000000000082573a0a00; // add x^25 * (33! / 25!)
+
+    Mutated line:
+                 res -= xi * 0x00000000000000000000082573a0a00; // add x^25 * (33! / 25!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 378
+    Result: Killed
+    Original line:
+                 res += xi * 0x00000000000000000000005035ad900; // add x^26 * (33! / 26!)
+
+    Mutated line:
+                 res -= xi * 0x00000000000000000000005035ad900; // add x^26 * (33! / 26!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 380
+    Result: Killed
+    Original line:
+                 res += xi * 0x000000000000000000000002f881b00; // add x^27 * (33! / 27!)
+
+    Mutated line:
+                 res -= xi * 0x000000000000000000000002f881b00; // add x^27 * (33! / 27!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 382
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000000000001b29340; // add x^28 * (33! / 28!)
+
+    Mutated line:
+                 res -= xi * 0x0000000000000000000000001b29340; // add x^28 * (33! / 28!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 384
+    Result: Killed
+    Original line:
+                 res += xi * 0x00000000000000000000000000efc40; // add x^29 * (33! / 29!)
+
+    Mutated line:
+                 res -= xi * 0x00000000000000000000000000efc40; // add x^29 * (33! / 29!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 386
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000000000000007fe0; // add x^30 * (33! / 30!)
+
+    Mutated line:
+                 res -= xi * 0x0000000000000000000000000007fe0; // add x^30 * (33! / 30!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 388
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000000000000000420; // add x^31 * (33! / 31!)
+
+    Mutated line:
+                 res -= xi * 0x0000000000000000000000000000420; // add x^31 * (33! / 31!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 390
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000000000000000021; // add x^32 * (33! / 32!)
+
+    Mutated line:
+                 res -= xi * 0x0000000000000000000000000000021; // add x^32 * (33! / 32!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 392
+    Result: Killed
+    Original line:
+                 res += xi * 0x0000000000000000000000000000001; // add x^33 * (33! / 33!)
+
+    Mutated line:
+                 res -= xi * 0x0000000000000000000000000000001; // add x^33 * (33! / 33!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 411
+    Result: Lived
+    Original line:
+                     res += 0x40000000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x40000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 415
+    Result: Lived
+    Original line:
+                     res += 0x20000000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x20000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 419
+    Result: Lived
+    Original line:
+                     res += 0x10000000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x10000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 423
+    Result: Lived
+    Original line:
+                     res += 0x08000000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x08000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 427
+    Result: Lived
+    Original line:
+                     res += 0x04000000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x04000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 431
+    Result: Lived
+    Original line:
+                     res += 0x02000000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x02000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 435
+    Result: Lived
+    Original line:
+                     res += 0x01000000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x01000000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 439
+    Result: Lived
+    Original line:
+                     res += 0x00800000000000000000000000000000;
+
+    Mutated line:
+                     res -= 0x00800000000000000000000000000000;
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 445
+    Result: Killed
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x100000000000000000000000000000000 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 449
+    Result: Lived
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x0aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 453
+    Result: Lived
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x099999999999999999999999999999999 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 457
+    Result: Lived
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x092492492492492492492492492492492 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 461
+    Result: Lived
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x08e38e38e38e38e38e38e38e38e38e38e - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 465
+    Result: Lived
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x08ba2e8ba2e8ba2e8ba2e8ba2e8ba2e8b - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 469
+    Result: Lived
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x089d89d89d89d89d89d89d89d89d89d89 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 473
+    Result: Lived
+    Original line:
+                 res +=
+
+    Mutated line:
+                 res -= (z * (0x088888888888888888888888888888888 - y)) /
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 493
+    Result: Timeout
+    Original line:
+                 res += z * 0x10e1b3be415a0000; // add y^02 * (20! / 02!)
+
+    Mutated line:
+                 res -= z * 0x10e1b3be415a0000; // add y^02 * (20! / 02!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 495
+    Result: Lived
+    Original line:
+                 res += z * 0x05a0913f6b1e0000; // add y^03 * (20! / 03!)
+
+    Mutated line:
+                 res -= z * 0x05a0913f6b1e0000; // add y^03 * (20! / 03!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 497
+    Result: Lived
+    Original line:
+                 res += z * 0x0168244fdac78000; // add y^04 * (20! / 04!)
+
+    Mutated line:
+                 res -= z * 0x0168244fdac78000; // add y^04 * (20! / 04!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 499
+    Result: Lived
+    Original line:
+                 res += z * 0x004807432bc18000; // add y^05 * (20! / 05!)
+
+    Mutated line:
+                 res -= z * 0x004807432bc18000; // add y^05 * (20! / 05!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 501
+    Result: Lived
+    Original line:
+                 res += z * 0x000c0135dca04000; // add y^06 * (20! / 06!)
+
+    Mutated line:
+                 res -= z * 0x000c0135dca04000; // add y^06 * (20! / 06!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 503
+    Result: Lived
+    Original line:
+                 res += z * 0x0001b707b1cdc000; // add y^07 * (20! / 07!)
+
+    Mutated line:
+                 res -= z * 0x0001b707b1cdc000; // add y^07 * (20! / 07!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 505
+    Result: Lived
+    Original line:
+                 res += z * 0x000036e0f639b800; // add y^08 * (20! / 08!)
+
+    Mutated line:
+                 res -= z * 0x000036e0f639b800; // add y^08 * (20! / 08!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 507
+    Result: Timeout
+    Original line:
+                 res += z * 0x00000618fee9f800; // add y^09 * (20! / 09!)
+
+    Mutated line:
+                 res -= z * 0x00000618fee9f800; // add y^09 * (20! / 09!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 509
+    Result: Timeout
+    Original line:
+                 res += z * 0x0000009c197dcc00; // add y^10 * (20! / 10!)
+
+    Mutated line:
+                 res -= z * 0x0000009c197dcc00; // add y^10 * (20! / 10!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 511
+    Result: Timeout
+    Original line:
+                 res += z * 0x0000000e30dce400; // add y^11 * (20! / 11!)
+
+    Mutated line:
+                 res -= z * 0x0000000e30dce400; // add y^11 * (20! / 11!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 513
+    Result: Timeout
+    Original line:
+                 res += z * 0x000000012ebd1300; // add y^12 * (20! / 12!)
+
+    Mutated line:
+                 res -= z * 0x000000012ebd1300; // add y^12 * (20! / 12!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 515
+    Result: Lived
+    Original line:
+                 res += z * 0x0000000017499f00; // add y^13 * (20! / 13!)
+
+    Mutated line:
+                 res -= z * 0x0000000017499f00; // add y^13 * (20! / 13!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 517
+    Result: Timeout
+    Original line:
+                 res += z * 0x0000000001a9d480; // add y^14 * (20! / 14!)
+
+    Mutated line:
+                 res -= z * 0x0000000001a9d480; // add y^14 * (20! / 14!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 519
+    Result: Lived
+    Original line:
+                 res += z * 0x00000000001c6380; // add y^15 * (20! / 15!)
+
+    Mutated line:
+                 res -= z * 0x00000000001c6380; // add y^15 * (20! / 15!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 521
+    Result: Timeout
+    Original line:
+                 res += z * 0x000000000001c638; // add y^16 * (20! / 16!)
+
+    Mutated line:
+                 res -= z * 0x000000000001c638; // add y^16 * (20! / 16!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 523
+    Result: Timeout
+    Original line:
+                 res += z * 0x0000000000001ab8; // add y^17 * (20! / 17!)
+
+    Mutated line:
+                 res -= z * 0x0000000000001ab8; // add y^17 * (20! / 17!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 525
+    Result: Timeout
+    Original line:
+                 res += z * 0x000000000000017c; // add y^18 * (20! / 18!)
+
+    Mutated line:
+                 res -= z * 0x000000000000017c; // add y^18 * (20! / 18!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 527
+    Result: Timeout
+    Original line:
+                 res += z * 0x0000000000000014; // add y^19 * (20! / 19!)
+
+    Mutated line:
+                 res -= z * 0x0000000000000014; // add y^19 * (20! / 19!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 529
+    Result: Timeout
+    Original line:
+                 res += z * 0x0000000000000001; // add y^20 * (20! / 20!)
+
+    Mutated line:
+                 res -= z * 0x0000000000000001; // add y^20 * (20! / 20!)
+
+
+Mutation:
+    File: /workspace/rareskills/contracts/math/Power.sol
+    Line nr: 310
+    Result: Timeout
+    Original line:
+                 assert(false);
+
+    Mutated line:
+                 
+
+

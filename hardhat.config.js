@@ -11,6 +11,13 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 1337 // We set 1337 to make interacting with MetaMask simpler
+    },
+    matic: {
+      url: "https://rpc-mumbai.maticvigil.com",
+      accounts: [process.env.KEY]
     }
+  },
+  etherscan: {
+    apiKey: process.env.POLY_KEY
   }
 };

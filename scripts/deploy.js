@@ -22,19 +22,25 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const Token = await ethers.getContractFactory("Token");
-  const token = await Token.deploy();
-  await token.deployed();
+  const nftFactory = await ethers.getContractFactory("GenBukowski");
+  const nft = await nftFactory.deploy();
+  await nft.deployed();
 
-  console.log("Token address:", token.address);
+  console.log("Gen Bukowski address:", nft.address);
+
+  const forgeFactory = await ethers.getContractFactory("Forge");
+  const forge = await forgeFactory.deploy(nft.address);
+  await forge.deployed();
+
+  console.log("Forge address:", forge.address);
 
   // We also save the contract's artifacts and address in the frontend directory
-  saveFrontendFiles(token);
+  saveFrontendFiles(nft, forge);
 }
 
-function saveFrontendFiles(token) {
+function saveFrontendFiles(nft, forge) {
   const fs = require("fs");
-  const contractsDir = path.join(__dirname, "..", "frontend", "src", "contracts");
+  const contractsDir = path.join(__dirname, "..", "bukowski-forgery", "constants");
 
   if (!fs.existsSync(contractsDir)) {
     fs.mkdirSync(contractsDir);
@@ -42,14 +48,21 @@ function saveFrontendFiles(token) {
 
   fs.writeFileSync(
     path.join(contractsDir, "contract-address.json"),
-    JSON.stringify({ Token: token.address }, undefined, 2)
+    JSON.stringify({ NFT: nft.address, Forge: forge.address }, undefined, 2)
   );
 
-  const TokenArtifact = artifacts.readArtifactSync("Token");
+  const NftArtifact = artifacts.readArtifactSync("GenBukowski");
 
   fs.writeFileSync(
-    path.join(contractsDir, "Token.json"),
-    JSON.stringify(TokenArtifact, null, 2)
+    path.join(contractsDir, "GenBukowksi.json"),
+    JSON.stringify(NftArtifact, null, 2)
+  );
+
+  const ForgeArtifact = artifacts.readArtifactSync("Forge");
+
+  fs.writeFileSync(
+    path.join(contractsDir, "Forge.json"),
+    JSON.stringify(ForgeArtifact, null, 2)
   );
 }
 

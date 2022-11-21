@@ -8,6 +8,7 @@ export type Web3Action =
       address?: Web3ProviderState['address']
       network?: Web3ProviderState['network']
       txPending: Web3ProviderState['txPending']
+      balance?:  Web3ProviderState['balance']
       connect?: Web3ProviderState['connect'],
       disconnect?: Web3ProviderState['disconnect']
     }
@@ -22,6 +23,10 @@ export type Web3Action =
   | {
       type: 'SET_TX_PENDING'
       txPending: Web3ProviderState['txPending']
+    }
+  | {
+      type: 'SET_BALANCE',
+      balance?: Web3ProviderState['balance']
     }
   | {
       type: 'RESET_WEB3_PROVIDER'

@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react'
+import { Box, Center, Flex, Heading, Spacer } from '@chakra-ui/react'
 import { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -22,18 +22,28 @@ const Home: NextPage = () => {
         </Link>
         <Web3Button />
       </nav>
-      <Flex>
+      <Center padding="5%" >
+        <Heading justifyContent="center">Mintable Tokens</Heading>
+      </Center>
+      <Flex align="space-evenly" justify="center" gridGap="5%">
         <NftView tokenId={0} mintable/>
         <NftView tokenId={1} mintable/>
         <NftView tokenId={2} mintable/>
       </Flex>
-      <Flex>
+      <Center padding="5%" >
+        <Heading justifyContent="center">Forged Items</Heading>
+      </Center>
+      <Flex align="center" justify="center" gridGap="5%">
         <NftView tokenId={3} mintable={false}/>
         <NftView tokenId={4} mintable={false}/>
         <NftView tokenId={5} mintable={false}/>
         <NftView tokenId={6} mintable={false}/>
       </Flex>
+      <Center padding="5%" >
+        <Heading justifyContent="center">Foundry</Heading>
+      </Center>
       <ForgeView/>
+      <Center padding="5%" />
     </div>
   )
 }

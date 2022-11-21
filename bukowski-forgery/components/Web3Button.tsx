@@ -1,4 +1,5 @@
 import { Web3Provider } from '@ethersproject/providers'
+import { BigNumber, ethers } from 'ethers'
 import React, { useEffect, useState } from 'react'
 import { useWeb3Context } from '../context/Web3Context'
 import { useWeb3 } from '../hooks'
@@ -21,7 +22,17 @@ interface DisconnectProps {
 
 const DisconnectButton = ({ disconnect, provider }: DisconnectProps) => {
   const [{address, network}, dispatch] = useWeb3Context();
+  const [balance, setBalance] = useState("");
   const chain = network?.chainId;
+
+  useEffect(()=> {
+    async function getBalance() {
+      const balance = await provider.getBalance(address as string);
+      setBalance((balance).toString());
+    }
+
+    getBalance();
+  },[address, network])
 
   return disconnect && address && chain? (
     <div>
@@ -30,6 +41,12 @@ const DisconnectButton = ({ disconnect, provider }: DisconnectProps) => {
         chain == 80001 ? "" :
         <p>Please switch to polygon mumbai network</p>
       }
+      <div>
+      {
+        chain != 80001 || balance == ""? "" :
+        <p>{`matic balance: ${(+ethers.utils.formatEther(balance)).toFixed(4)}`}</p>
+      }
+      </div>
     </div>
   ) : (
     <button>Loading...</button>

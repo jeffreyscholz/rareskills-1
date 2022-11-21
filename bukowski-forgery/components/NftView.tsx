@@ -82,7 +82,7 @@ export function NftView({tokenId, mintable}: NftProps) {
             const signer = await web3Provider.getSigner();
 
             try {
-                const burnTx = await forgeContract?.connect(signer).burn(tokenId);
+                const burnTx = await forgeContract?.connect(signer).burn(tokenId, 1);
                 const receipt = await burnTx.wait();
                 console.log('here')
                 dispatch({
@@ -166,25 +166,24 @@ export function NftView({tokenId, mintable}: NftProps) {
             <Button onClick={onOpen}>
                 Trade
             </Button>
-            <Modal size='xs' isOpen={isOpen} onClose={onClose}>
+            <Modal isCentered={true} size='md' isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay 
-                    bg='blackAlpha.300'
+                    bg='white.300'
                     backdropFilter='blur(10px) hue-rotate(90deg)'/>
-                <ModalContent maxH="50%" maxW="50%">
+                <ModalContent maxH="50%" maxW="50%" justifyContent="center">
                     <ModalHeader>Trade</ModalHeader>
-                    <ModalCloseButton />
                     <ModalBody>
                     <div style={{color: "white"}}>
-            <Flex>
+            <Flex align="space-evenly" justify="center" gridGap="5%">
                 {
                     [0,1,2].map((token) => {
                         return (
-                            <div>
+                            <div style={{ 'textAlign':'center' }}>
                                 <Image 
                                     boxSize='150px'
                                     objectFit='cover'
                                     fallbackSrc="https://via.placeholder.com/150"
-                                    src="https://via.placeholder.com/150"
+                                    src={`/${token}.jpg`}
                                 />
                                 <Text>token: {token}</Text>
                                 <input
@@ -228,12 +227,12 @@ export function NftView({tokenId, mintable}: NftProps) {
     },[address])
 
     return (
-        <div>
+        <div style={{ 'textAlign':'center' }}>
             <Image 
                 boxSize='150px'
                 objectFit='cover'
-                fallbackSrc="https://via.placeholder.com/150"
-                src="https://via.placeholder.com/150"
+                fallbackSrc="https://vga.placeholder.com/150"
+                src={`/${tokenId}.jpg`}
             />
             <Text>token: {tokenId}</Text>
             <Text>balance: {balance}</Text>

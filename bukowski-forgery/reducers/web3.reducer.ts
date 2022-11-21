@@ -15,6 +15,7 @@ export function web3Reducer(
           address: action.address,
           network: action.network,
           txPending: action.txPending,
+          balance: action.balance,
           connect: action.connect,
           disconnect: action.disconnect
         }
@@ -32,6 +33,11 @@ export function web3Reducer(
         return {
           ...state,
           txPending: action.txPending
+        }
+      case 'SET_BALANCE':
+        return {
+          ...state,
+          balance: action.balance
         }
       case 'RESET_WEB3_PROVIDER':
         return web3InitialState

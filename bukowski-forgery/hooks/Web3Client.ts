@@ -60,7 +60,6 @@ export const useWeb3 = (): [Web3ProviderState, Dispatch<Web3Action>] => {
         const signer = web3Provider.getSigner()
         const address = await signer.getAddress()
         const network = await web3Provider.getNetwork()
-
         toast.success('Connected to Web3')
 
         dispatch({

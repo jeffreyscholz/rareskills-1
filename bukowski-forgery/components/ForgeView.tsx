@@ -20,7 +20,7 @@ export function ForgeView () {
             !web3Provider || txPending ||
             !nftContract
         ) {
-            console.log('here')
+            console.log(chosenTokens.filter(x => x).length < 2)
             return;
         }
 
@@ -72,7 +72,7 @@ export function ForgeView () {
         });
 
         window.location.reload();
-    }, [])
+    }, [chosenTokens])
 
     const handleOnChange = (position: number) => {
         const updatedChosenTokens = chosenTokens.map((item, index) =>
@@ -101,8 +101,8 @@ export function ForgeView () {
     }
 
     return (
-        <div>
-            <Flex>
+        <div style={{ 'textAlign':'center' }}>
+            <Flex align="center" justify="center" gridGap="5%">
                 {
                     [0,1,2].map((token) => {
                         return (
@@ -111,7 +111,7 @@ export function ForgeView () {
                                     boxSize='150px'
                                     objectFit='cover'
                                     fallbackSrc="https://via.placeholder.com/150"
-                                    src="https://via.placeholder.com/150"
+                                    src={`/${token}.jpg`}
                                 />
                                 <Text>token: {token}</Text>
                                 <input

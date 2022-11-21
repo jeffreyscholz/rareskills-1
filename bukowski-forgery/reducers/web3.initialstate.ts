@@ -6,6 +6,7 @@ export const web3InitialState: Web3ProviderState = {
     address: null,
     network: null,
     txPending: false,
+    balance: null,
     connect: null,
     disconnect: null,
   }

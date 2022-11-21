@@ -7,6 +7,7 @@ export type Web3ProviderState = {
     address: string | null | undefined
     network: ethers.providers.Network | null | undefined
     txPending: boolean,
+    balance: string | null | undefined
     connect: (() => Promise<void>) | null | undefined
     disconnect: (() => Promise<void>) | null | undefined
 }

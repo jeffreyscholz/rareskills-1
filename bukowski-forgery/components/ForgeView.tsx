@@ -106,7 +106,7 @@ export function ForgeView () {
                 {
                     [0,1,2].map((token) => {
                         return (
-                            <div>
+                            <div key={token.toString()}>
                                 <Image 
                                     boxSize='150px'
                                     objectFit='cover'

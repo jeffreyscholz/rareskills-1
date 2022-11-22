@@ -5,7 +5,7 @@ import { useWeb3Context } from '../context/Web3Context'
 import { useWeb3 } from '../hooks'
 
 interface ConnectProps {
-  connect: (() => Promise<void>) | null
+  connect: (() => Promise<void>) | null | undefined
 }
 const ConnectButton = ({ connect }: ConnectProps) => {
   return connect ? (
@@ -16,7 +16,7 @@ const ConnectButton = ({ connect }: ConnectProps) => {
 }
 
 interface DisconnectProps {
-  disconnect: (() => Promise<void>) | null
+  disconnect: (() => Promise<void>) | null |undefined
   provider: Web3Provider
 }
 

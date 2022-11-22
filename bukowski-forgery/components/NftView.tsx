@@ -178,7 +178,7 @@ export function NftView({tokenId, mintable}: NftProps) {
                 {
                     [0,1,2].map((token) => {
                         return (
-                            <div style={{ 'textAlign':'center' }}>
+                            <div key={token.toString()} style={{ 'textAlign':'center' }}>
                                 <Image 
                                     boxSize='150px'
                                     objectFit='cover'

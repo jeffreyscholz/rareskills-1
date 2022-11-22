@@ -3,6 +3,8 @@
 
 const path = require("path");
 
+const RANDOMNUM_CONTRACT = '0x4465Fde5c9CcC8fE163Ed4719831831E97F9b67f'
+
 async function main() {
   // This is just a convenience check
   if (network.name === "hardhat") {
@@ -22,19 +24,19 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const Token = await ethers.getContractFactory("Token");
-  const token = await Token.deploy();
-  await token.deployed();
+  const attackerFactory = await ethers.getContractFactory("CoinFlipAttacker");
+  const attacker = await attackerFactory.deploy(RANDOMNUM_CONTRACT);
+  await attacker.deployed();
 
-  console.log("Token address:", token.address);
+  console.log("Attacker address:", attacker.address);
 
   // We also save the contract's artifacts and address in the frontend directory
-  saveFrontendFiles(token);
+  saveFrontendFiles(attacker);
 }
 
-function saveFrontendFiles(token) {
+function saveFrontendFiles(attacker) {
   const fs = require("fs");
-  const contractsDir = path.join(__dirname, "..", "frontend", "src", "contracts");
+  const contractsDir = path.join(__dirname, "..", "..", "frontend", "src", "contracts");
 
   if (!fs.existsSync(contractsDir)) {
     fs.mkdirSync(contractsDir);
@@ -42,14 +44,14 @@ function saveFrontendFiles(token) {
 
   fs.writeFileSync(
     path.join(contractsDir, "contract-address.json"),
-    JSON.stringify({ Token: token.address }, undefined, 2)
+    JSON.stringify({ Attacker: attacker.address }, undefined, 2)
   );
 
-  const TokenArtifact = artifacts.readArtifactSync("Token");
+  const AttackerArtifact = artifacts.readArtifactSync("CoinFlipAttacker");
 
   fs.writeFileSync(
-    path.join(contractsDir, "Token.json"),
-    JSON.stringify(TokenArtifact, null, 2)
+    path.join(contractsDir, "CoinFlipAttacker.json"),
+    JSON.stringify(AttackerArtifact, null, 2)
   );
 }
 
